@@ -3,9 +3,7 @@ import binascii
 
 def test(input, output, result):
     
-    #print ('Input: %s, Output: %s - %s' % (input, output, 'PASSED' if output == result else 'FAILED'))
     print ('Input: %s, Output: %s ' % (input, output))
-    
 
 spritz = Spritz()
 
