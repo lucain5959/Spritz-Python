@@ -23,7 +23,6 @@ for input, result in output_test_vectors.items():
     output = binascii.hexlify(spritz.squeeze(8))
     test(input, output, result)
 
-print
 print ('// Test Spritz hash test vectors:')
 
 hash_test_vectors = {
